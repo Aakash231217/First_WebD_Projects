@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+:root {
+    --main-bg-color: brown;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: #a52a92;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: chartreuse;
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 499px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.search button {
+    font-family: 'Yuji Syuku', serif;
+    font-weight: 900;
+}
+
+.slider {
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+}
+
+.card {
+    width: 80px;
+    margin: 12px auto;
+    font-family: 'Yuji Syuku', serif;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2 {
+    font-family: 'Yuji Syuku', serif;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh)
+}
+
+footer {
+    height: 12vh;
+    background-color: #2aa582;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
